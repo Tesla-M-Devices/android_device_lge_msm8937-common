@@ -132,7 +132,7 @@ PRODUCT_PACKAGES += \
     init.qcom.early_boot.sh \
     init.qcom.post_boot.sh \
     init.qcom.class_core.sh \
-    init.ph2n_core.rc \
+    init.lv517_core.rc \
     init.qcom.rc \
     init.qcom.sh \
     init.qcom.sensors.sh \
