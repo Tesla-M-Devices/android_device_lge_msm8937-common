@@ -222,8 +222,9 @@ TARGET_PROVIDES_KEYMASTER := true
 include device/qcom/sepolicy/sepolicy.mk
 BOARD_SEPOLICY_DIRS += $(LOCAL_PATH)/sepolicy
 
-# Tap to wake
-#TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/lge_touch/lpwg_notify"
+# CMHW
+BOARD_HARDWARE_CLASS := $(LOCAL_PATH)/cmhw/
+TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/lge_touch/tap_to_wake"
 
 # Wifi
 BOARD_HAS_QCOM_WLAN := true
